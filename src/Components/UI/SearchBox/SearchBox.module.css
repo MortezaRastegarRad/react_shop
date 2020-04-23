@@ -1,0 +1,51 @@
+.searchForm {
+    display: flex;
+    align-items: center;
+    direction: rtl;
+    margin-right: 2rem;
+}
+
+.Input {
+    height: 2rem;
+    width: 20rem;
+    border: 3px solid #666666;
+    border-radius: 0.5rem;
+    padding: 0 0.6rem;
+    border-right: none;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.btn {
+    height: 2rem;
+    border: 3px solid #666666;
+    border-radius: 0.5rem;
+    padding: 0 0.6rem;
+    border-left: none;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.btn Button{
+    background: transparent;
+    border: none;
+}
+
+
+.btn Button:focus,
+.Input:focus,
+.btn:focus {
+    outline: none;
+}
+
+.search {
+    color: black;
+}
+
+
+@media (max-width: 499px) {
+
+    .searchForm {
+        margin: 0 0.8rem;
+    }
+}
